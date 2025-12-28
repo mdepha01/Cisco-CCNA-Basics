@@ -12,7 +12,7 @@
 1. Lab1.png shows the topology of the routers.
 
 2. configuting hostnames: <br>
-   **>enable ** <br>
+   ** >enable ** <br>
    **#confifure terminal ** <br>
    **$hostname R1 ** <br>
 
