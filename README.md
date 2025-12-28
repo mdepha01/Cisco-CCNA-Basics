@@ -5,7 +5,7 @@ This Repository is focused on the Cisco CCNA basic configurations.
 The aim of the repository is to simply the basics of the Cisco IOS.
 
 ## Audiance:
-*Aspiring Network engineers that are preparing for the Cisco CCNA exam.
+*Aspiring Network engineers that are preparing for the Cisco CCNA exam. <br>
 *Individuals who want to learn more about using Cisco IOS to configure routers and switches.
 
 ## Credit:
