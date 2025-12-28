@@ -12,24 +12,24 @@
 1. Lab1.png shows the topology of the routers.
 
 2. configuting hostnames: <br>
-   ** >enable ** <br>
-   **#confifure terminal ** <br>
-   **$hostname R1 ** <br>
+   __>enable__ <br>
+   __#confifure terminal__ <br>
+   __$hostname R1__ <br>
 
 3. Enabling Password on both routers:
-   **$enable password ciscoccna ** <br>
+   __$enable password ciscoccna__ <br>
 
 4. viewning the consiguration file:
-   **#show running-config. ** <br>
+   __#show running-config__ <br>
   Unencrypted.png shows the results.
   The passwords are not encrypted after being configured they are saved as plain text.
 
 5. encrypting the passwords:
-   **$service password-encryption ** <br>
+   __$service password-encryption__ <br>
  The passwords are now encrypted, the future passwords will be encrypted also not saved as plain text.
  Results are shown in Finalresults.png
 
 6. saving configurations to memory:
-   **#write memory ** <br>
-   **#write ** , can also be used to save changes. <br>
-   **#copy running-config startup-config **
+   __#write memory__ <br>
+   __#write__ , can also be used to save changes. <br>
+   __#copy running-config startup-config__
