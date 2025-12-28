@@ -17,19 +17,19 @@
    __$hostname R1__ <br>
 
 3. Enabling Password on both routers:
-   __$enable password ciscoccna__ <br>
+   __$enable password ciscoccna__ 
 
-4. viewning the consiguration file:
+4. viewning the consiguration file: <br>
    __#show running-config__ <br>
-  Unencrypted.png shows the results.
+  Unencrypted.png shows the results. <br>
   The passwords are not encrypted after being configured they are saved as plain text.
 
-5. encrypting the passwords:
+5. encrypting the passwords: <br>
    __$service password-encryption__ <br>
- The passwords are now encrypted, the future passwords will be encrypted also not saved as plain text.
+ The passwords are now encrypted, the future passwords will be encrypted also not saved as plain text. <br>
  Results are shown in Finalresults.png
 
-6. saving configurations to memory:
+6. saving configurations to memory: <br>
    __#write memory__ <br>
    __#write__ , can also be used to save changes. <br>
    __#copy running-config startup-config__
