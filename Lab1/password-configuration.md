@@ -11,7 +11,7 @@
 # Solutions:
 1. Lab1.png shows the topology of the routers.
 
-2. configuting hostnames: \n
+2. configuting hostnames: <br>
    **>enable **
    **#confifure terminal **
    **$hostname R1 **
