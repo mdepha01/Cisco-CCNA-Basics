@@ -7,6 +7,7 @@
 5. Enable password encryption Encrypt both passwords.
 6. View the running configuration file agan. are the passwords encrypted?
 7. Save configurations to memory.
+8. Disable password encryption. Are the passwords encrypted? 
 
 # Solutions:
 1. Lab1.png shows the topology of the routers.
@@ -28,8 +29,12 @@
    __$service password-encryption__ <br>
  The passwords are now encrypted, the future passwords will be encrypted also not saved as plain text. <br>
  Results are shown in Finalresults.png
-
-6. saving configurations to memory: <br>
+6. Viewing running config again : <br>
+ __$show running-config__ <br>
+  The passwords are still encrypted, once a password is encrypted it cannot be converted back to plain text <br>
+   Only future passwords will be saved as plaint text <br>
+   
+7. saving configurations to memory: <br>
    __#write memory__ <br>
    __#write__ , can also be used to save changes. <br>
    __#copy running-config startup-config__
