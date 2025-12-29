@@ -11,7 +11,7 @@
 
 # Solutions 
 ## All the commands were used on both routers
-## NB: $ is used to represent Global EXEC mode , # is used privileged EXEC mode , > used for user EXEC mode , negate those symbols when writing the commands!!!
+### NB: $ is used to represent Global EXEC mode , # is used privileged EXEC mode , > used for user EXEC mode , negate those symbols when writing the commands!!!
 
 1. The results are shown in Lab2.png file and Lab2.pkt. <br>
 2. Configuring hostnames on both routers: <br>
