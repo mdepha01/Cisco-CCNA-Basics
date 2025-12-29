@@ -17,4 +17,20 @@
  __$hostname R1__ <br>
  3. Enabling secret on R1: <br>
   __$enable secret SECRET__ <br>
-4. 
+4. Setting a Console Password (this password is used to login to the privileged EXEC mode when using console) : <br>
+ __$line console 0__ <br> 
+ __($-int) password PASSWORD__ <br>
+ __($-int) login__ , this command ensures that console password not secret is used when loging in via console
+__($-int) exit__ , used to exit the console interface then back to Global config mode <br>
+
+ 4.1. checking the running-config : <br>
+  __$do show running-config__ <br>
+ 4.2. The password is not encrypted by default.
+ 
+5. Enabling Password Encryption : <br>
+ __$service password-encryption__ <br>
+
+5.1. showing the running configuration file:
+   __#show run__ <br>
+5.2. Saving changes to memory: <br>
+ __#write__
