@@ -3,12 +3,12 @@
 1. Connect PC1 port RS-232 to R1 console port.
 2. Use Console connection and configure R1 from PC1.
 3. Enable secret on R1 "SECRET".
-4. Enable password "PASSWORD" on R1, make the password required to connect to R1 via console port.
-   4.1 Check the running configuration file.
-   4.2. was the Password encrypted?
-5. Enable Password Encryption on R1.
-   5.1. Verify the encryption using the running config.
-   5.2. save the configurations on memory.
+4. Enable password "PASSWORD" on R1, make the password required to connect to R1 via console port. <br>
+   - 4.1 Check the running configuration file. <br>
+   - 4.2. was the Password encrypted?
+5. Enable Password Encryption on R1. <br>
+   - 5.1. Verify the encryption using the running config.
+   - 5.2. save the configurations on memory.
 
 ## Solutions 
 
