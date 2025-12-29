@@ -30,11 +30,11 @@
 
 6. Show running config files : <br>
    __#show running-config__  <br>
-   The results are shown on running-config.png. By default __enable secret__ password is encrypted whilst __enable password __ is not encrypted by default but saved in plain text.
+   The results are shown on running-configuration-1.png. By default __enable secret__ password is encrypted whilst __enable password __ is not encrypted by default but saved in plain text.
 
-7. Enabling password encryption on both routers Ra and R2: <br>
+7. Enabling password encryption on both routers R1 and R2: <br>
  __$service password-encryption__ <br>
- Both passwords should be encrypted with MD7 for enable password "PASSWORD" and MD5 encryption for enable secret "SECRET". <bR>
+ Both passwords should be encrypted with MD7 for enable password "PASSWORD" and MD5 encryption for enable secret "SECRET". <bR> as shown on running-config-encrypted.png
 
  8. Saving to Memory on both Ra and R2 : <br>
     __$do write memory__
