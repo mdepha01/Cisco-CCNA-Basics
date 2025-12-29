@@ -19,7 +19,7 @@
   __$hostname R2__ on the second router <br>
 
 3. Configuring passwords on both routers: <br>
- __Senable password PASSWORD__ on R1 and R2 routers.<br>
+ __$enable password PASSWORD__ on R1 and R2 routers.<br>
 
 4. Configuring secret on both routers R1 and R2 : <br>
    __$enable secret SECRET__ <br>
@@ -36,5 +36,5 @@
  __$service password-encryption__ <br>
  Both passwords should be encrypted with MD7 for enable password "PASSWORD" and MD5 encryption for enable secret "SECRET". <bR>
 
- 8. Saving to Memory on both Ra and R2 :
+ 8. Saving to Memory on both Ra and R2 : <br>
     __$do write memory__
