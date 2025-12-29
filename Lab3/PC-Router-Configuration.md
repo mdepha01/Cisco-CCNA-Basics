@@ -29,6 +29,6 @@
  5. Enabling Password Encryption : <br>
  __$service password-encryption__ <br>
   - 5.1. showing the running configuration file: <br>
-    __#show run__ <br>
+    __#show run__ the results are showin in running-config-encrypted3.png <bR>
   - 5.2. Saving changes to memory: <br>
   __#write__
