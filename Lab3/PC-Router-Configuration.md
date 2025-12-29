@@ -27,10 +27,10 @@ __($-int) exit__ , used to exit the console interface then back to Global config
   __$do show running-config__ <br>
  4.2. The password is not encrypted by default.
  
-5. Enabling Password Encryption : <br>
+ 5. Enabling Password Encryption : <br>
  __$service password-encryption__ <br>
 
-5.1. showing the running configuration file:
+  5.1. showing the running configuration file:
    __#show run__ <br>
-5.2. Saving changes to memory: <br>
+  5.2. Saving changes to memory: <br>
  __#write__
