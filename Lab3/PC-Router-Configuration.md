@@ -22,15 +22,13 @@
  __($-int) password PASSWORD__ <br>
  __($-int) login__ , this command ensures that console password not secret is used when loging in via console
 __($-int) exit__ , used to exit the console interface then back to Global config mode <br>
-
--- 4.1. checking the running-config : <br>
+- 4.1. checking the running-config : <br>
   __$do show running-config__ <br>
--- 4.2. The password is not encrypted by default.
+- 4.2. The password is not encrypted by default.
  
  5. Enabling Password Encryption : <br>
  __$service password-encryption__ <br>
-
-  -- 5.1. showing the running configuration file: <br>
+  - 5.1. showing the running configuration file: <br>
     __#show run__ <br>
-  -- 5.2. Saving changes to memory: <br>
+  - 5.2. Saving changes to memory: <br>
   __#write__
