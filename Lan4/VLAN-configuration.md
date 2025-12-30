@@ -22,7 +22,7 @@
  __$switchport mode access__ <br>
  __$witchport access VLAN 1__ <br> <br>
 
-now SW2 : <br>
+- now SW2 : <br>
 __>en__ <br>
 __#conf t__ <br>
 __$int range f0/3 -4__ <br>
