@@ -1,5 +1,5 @@
 # Conviguring a VLAN from given topology
-
+## > = user exec , # = privileged mode , $ = global config mode , ($-int) = interface level
 ## Questions 
 
 ### Refer to the topology Lab4.png and Lab4.pkt
@@ -18,13 +18,22 @@
 - We configure VLAN 1 on SW1 and VLAN2 on SW2 : <br>
  __>en__ <br>
  __#conf t__ <br>
- __$int range f01 -2__ <br>
- __$switchport mode access__ <br>
- __$witchport access VLAN 1__ <br> <br>
+ __$int range f0/1__ <br>
+ __($-int)switchport mode access__ <br>
+ __$witchport access vlan1__ <br>
+ __$int f0/2__ <br>
+ __($-int) swi mode acc__ <br>
+ __($-int) switchport access vlan 2__ <br>
 
 - now SW2 : <br>
 __>en__ <br>
 __#conf t__ <br>
-__$int range f0/3 -4__ <br>
-__$switchport mode access__ <br>
-__$switchport access VLAN 2__ <br>
+__$int f0/3__ <br>
+__($-int)switchport mode access__ <br>
+__$switchport access vlan 1__ <br>
+__$int f0/4 __ <br>
+__($-int) switchport mode acc__ <br> 
+__($-int) switchport access vlan 2__ <br>
+
+### running the show vlan brief : shows if all vlans have been configured correctly
+
