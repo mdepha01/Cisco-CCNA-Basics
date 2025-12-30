@@ -35,7 +35,7 @@ __$int f0/4 __ <br>
 __($-int) switchport mode acc__ <br> 
 __($-int) switchport access vlan 2__ <br>
 
-### running the $show vlan brief , command shows if all vlans have been configured correctly
+### Running the $show vlan brief , command shows if all vlans have been configured correctly
 4. Ping after VLAN implementation is shown on Lab4-aftervlan.png 
 5. Since PC2 and PC 4 are on vlan 2 , PC 1 and PC3 will not be able to ping PCs in a different vlan.
 6. Configuring trunk connection between SW1 and SW2: <br>
@@ -45,5 +45,5 @@ __($-int) switchport access vlan 2__ <br>
  __($-int) switchport mode trunk__ <br>
  __($-int) switchport trunk allowed vlan 1, 2__ <br>
 
-### running the command #show int trunk , command shows if the trunk was configured correctly.
+### Running the command #show int trunk , command shows if the trunk was configured correctly.
 7. PC1 is able to ping only PC3 , PC2 is only able to ping PC4 vice versa , this is because the PCs operate on diffrent VLANs.
