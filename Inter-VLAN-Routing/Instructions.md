@@ -36,7 +36,7 @@ __($-int) switchport trunk allowed vlan add 10, 20 <br>
 - SW2  : <br>
 __$int g0/1__
 __($-int) switchport mode trunk__ <br>
-__($-int) switchport trunk allowed vlan add 10, 20
+__($-int) switchport trunk allowed vlan add 10, 20__
 
 4. Inter-VLAN configuration on R1 : <br>
 __$int g0/0.10__ <br>
