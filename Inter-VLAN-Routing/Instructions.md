@@ -48,4 +48,6 @@ __($-int) ip add 10.0.0.129 255.255.255.128__ <br>
 
 5. Testing Connection , results are on intervlan-ping-results.png
    
-
+## In order for R1 to route traffic , we need to create a trunk betweem SW1 and R1 (Run command on SW1):
+__$int g0/0__ <br>
+__($-int) sw mode tr__ <br>
