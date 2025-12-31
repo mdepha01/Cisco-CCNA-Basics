@@ -46,4 +46,6 @@ __($-int) int g0/0.20__ <br>
 __($-int) encap dot 20__ <br>
 __($-int) ip add 10.0.0.129 255.255.255.128__ <br>
 
+5. Testing Connection , results are on intervlan-ping-results.png
+   
 
