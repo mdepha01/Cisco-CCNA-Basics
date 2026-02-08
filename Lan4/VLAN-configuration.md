@@ -31,7 +31,7 @@ __#conf t__ <br>
 __$int f0/3__ <br>
 __($-int)switchport mode access__ <br>
 __$switchport access vlan 1__ <br>
-__$int f0/4 __ <br>
+__$int f0/4__ <br>
 __($-int) switchport mode acc__ <br> 
 __($-int) switchport access vlan 2__ <br>
 
